@@ -7,6 +7,23 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   }
 
 body{
-    background-color:#ffffff;
-}
+    background-color:rgb(194, 231, 245);
+    background-color: beige;
+    background-position: top center;
+    padding: 2px;
+    margin: 2px;
+    }
 
+
+ul li{
+    font-size: 1.4em;
+    border-style: solid;
+    border-color: white;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    border: 0.2em ;
+    margin: 0.5em;
+    color: skyblue;
+    align-items: center;
+}    
