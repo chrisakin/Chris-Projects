@@ -1,0 +1,15 @@
+{
+  "name": "prelate-travels",
+  "version": "1.0.0",
+  "description": "prelate travels website",
+  "main": "index.js",
+  "scripts": {
+    "test": "ng serve -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "prelate travels"
+  },
+  "author": "christopher",
+  "license": "ISC"
+}
