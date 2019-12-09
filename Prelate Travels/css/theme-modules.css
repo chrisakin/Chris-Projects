@@ -484,8 +484,10 @@ select {
     padding-top: 50px;
     padding-bottom: 24px;
     z-index: 500;
-  
-    
+}
+
+header*{
+    display: inline;
 }
 
 /*Placement*/
