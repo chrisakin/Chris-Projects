@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(126, 152, 187);
+}
+li{
+    
+    display: inline;
+    align-content: center;
+    margin-left: 30px;
+    padding: 20px;
+    
+}
+
+.head{
+    display: inline-block;
+    background-color: lightblue;
+    background-size: contain;
+    width: 1340px;
+}
+
+.logo{
+    position: relative;
+    float: right;
+}
+ h1{
+     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-top: 80px;
+ }
