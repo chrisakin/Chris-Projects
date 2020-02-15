@@ -1,8 +1,9 @@
 
 body{
-    background-color: rgb(126, 152, 187);
+   align-content: center;
+   margin-right: 200px ;
 }
-li{
+.head{
     
     display: inline;
     align-content: center;
@@ -11,7 +12,7 @@ li{
     
 }
 
-.head{
+.heade{
     display: inline-block;
     background-color: lightblue;
     background-size: contain;
