@@ -68,6 +68,8 @@ span {
     background: rgb(1, 1, 26);
     color: white;
     transition: all 0.3s;
+    position: sticky;
+    
     
 }
 
@@ -228,7 +230,7 @@ a.article:hover {
 .intro{
     color: white !important;
     padding-top: 20px;
-    font-size: x-large;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
