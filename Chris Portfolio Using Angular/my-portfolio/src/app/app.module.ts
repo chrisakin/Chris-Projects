@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {HttpClientModule} from '@angular/common/http';
 import { RouterModule, Routes} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ScrollSpyDirective } from './scroll-spy.directive';
 
 
 
@@ -29,13 +30,15 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     NoPageFoundComponent,
     PicturesComponent,
-    FooterComponent
+    FooterComponent,
+    ScrollSpyDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    
+    HttpClientModule,
+    BrowserAnimationsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

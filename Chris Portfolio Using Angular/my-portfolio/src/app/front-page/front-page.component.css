@@ -73,6 +73,11 @@ span {
     
 }
 
+.iconic ul li{
+    background-color: black;
+    padding: 2px;
+}
+
 #sidebar.active {
     min-width: 80px;
     max-width: 80px;
