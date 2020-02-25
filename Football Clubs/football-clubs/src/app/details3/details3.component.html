@@ -1,0 +1,26 @@
+
+
+
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{details3.name}}</mat-card-title>
+      <mat-card-subtitle>{{details3.location}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{details3.image}}" alt="{{details3.name}}">
+    <mat-card-content>
+      <dl>
+        <dt>Stadium</dt>
+        <dd>{{details3.stadium}}</dd>
+        <dt>Stadium Capacity:</dt>
+        <dd>{{details3.capacity}}</dd>
+        <dt>Manager</dt>
+        <dd>{{details3.manager}}</dd>
+        <dt>Captain</dt>
+        <dd>{{details3.captain}}</dd>
+      </dl>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button (click)="showMap(details3.lat, details3.lng)">Show Location</button>
+    </mat-card-actions>
+  </mat-card>

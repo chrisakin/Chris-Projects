@@ -1,24 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Team } from '../team';
+import { Team3 } from '../team3';
 
 
 @Component({
-  selector: 'app-details',
-  templateUrl: './details.component.html',
-  styleUrls: ['./details.component.css']
+  selector: 'app-details3',
+  templateUrl: './details3.component.html',
+  styleUrls: ['./details3.component.css']
 })
-export class DetailsComponent implements OnInit {
+export class Details3Component implements OnInit {
   
-details = { id: null, name: '',    image: '', location: '', stadium:    '', capacity:    null, manager: '', captain: '', lat: null, lng: null };
-teams = Team;
+details3 = { id: null, name: '',    image: '', location: '', stadium:    '', capacity:    null, manager: '', captain: '', lat: null, lng: null };
+teams = Team3;
 
   constructor(public route: ActivatedRoute, public router: Router) {}
 
   ngOnInit() {
     if (this.route.snapshot.paramMap.get('id') !== 'null') {
       const id = parseInt(this.route.snapshot.paramMap.get('id'), 0);
-      this.details = this.teams.find(x => x.id === id);
+      this.details3 = this.teams.find(x => x.id === id);
     }
   }
 

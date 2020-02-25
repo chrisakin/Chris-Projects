@@ -19,6 +19,19 @@ import { DetailsComponent } from './details/details.component';
 import { MapsComponent } from './maps/maps.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './header/header.component';
+import { ListSpaComponent } from './list-spa/list-spa.component';
+import { ListItaComponent } from './list-ita/list-ita.component';
+import { ListAfComponent } from './list-af/list-af.component';
+import { ListEuComponent } from './list-eu/list-eu.component';
+import { ListAmComponent } from './list-am/list-am.component';
+import { ListAsComponent } from './list-as/list-as.component';
+import { ListAuComponent } from './list-au/list-au.component';
+import { PicturesComponent } from './pictures/pictures.component';
+import { HomeComponent } from './home/home.component';
+import { Details2Component } from './details2/details2.component';
+import { Details3Component } from './details3/details3.component';
+import { FooterComponent } from './footer/footer.component';
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 
 @NgModule({
@@ -28,7 +41,20 @@ import { HeaderComponent } from './header/header.component';
     DetailsComponent,
     MapsComponent,
     HomePageComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListSpaComponent,
+    ListItaComponent,
+    ListAfComponent,
+    ListEuComponent,
+    ListAmComponent,
+    ListAsComponent,
+    ListAuComponent,
+    PicturesComponent,
+    HomeComponent,
+    Details2Component,
+    Details3Component,
+    FooterComponent,
+    NoPageFoundComponent
   ],
   imports: [
     BrowserModule,
