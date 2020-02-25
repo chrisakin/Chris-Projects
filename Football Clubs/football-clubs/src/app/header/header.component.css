@@ -1,0 +1,63 @@
+.download{
+    color: white !important;  
+}
+
+
+.cbp-af-header-shrink{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    opacity: 0.9;
+}
+
+.nav{
+    -webkit-transition:all 0.5s;
+    transition: all 0.5s;
+    
+}
+
+.download:hover{
+    background-color: darkcyan;
+    border-radius: 10%;
+    padding: 9px;
+}
+
+.article{
+    color: white !important;   
+}
+
+.article:hover{
+   color: cadetblue !important;
+   background-color:darkcyan; 
+   border-radius: 10%;
+    padding: 9px;
+}
+
+.drop{
+    background-color:none !important;
+    margin-top: 20px;
+    margin-right: 4px;
+}
+
+
+.header:hover{
+    color: cadetblue !important;
+    border-radius: 10%;
+    padding: 9px;
+   
+}
+
+
+
+
+
+
+.nav-link:hover{
+    background-color: darkcyan;
+    border-radius: 10% !important;
+    
+}
+
+
+
+
+    
