@@ -1,0 +1,55 @@
+button {
+  border-color: #2aa9ff;
+  color: #2aa9ff;
+}
+
+button.fill {
+    background: #2aa9ff;
+    color: #fff;
+  }
+
+#lyfts table {
+  border-spacing: 0;
+  border: 2px solid;
+  border-bottom: 0;
+}
+
+#lyfts td,
+#lyfts th {
+  border-bottom: 2px solid;
+  padding: .6em 1.5em;
+}
+
+#lyft td,
+#lyft th {
+  padding: .6em 1.5em;
+}
+
+#lyfts table,
+#lyft table,
+#lyftProfile table {
+  display: table;
+  margin: .9em auto .9em;
+}
+
+#lyftProfile td {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img.star {
+  display: inline;
+  margin: auto;
+}
+
+#lyft img {
+  height: 11em;
+}
+
+#lyft table img {
+  height: 2em;
+}

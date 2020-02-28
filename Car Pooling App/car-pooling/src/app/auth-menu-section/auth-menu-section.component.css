@@ -1,0 +1,23 @@
+section {
+    background: #2aa9ff;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border: 2px solid #2aa9ff;
+  }
+
+  section>div{
+    padding: .6em .8em;
+  }
+  
+  section a {
+    color: #fff;
+  }
+  
+  .active{
+      background: #fff;
+  }
+
+  .active>a{
+    color:#2aa9ff;
+}

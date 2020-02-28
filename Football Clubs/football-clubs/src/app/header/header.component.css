@@ -33,7 +33,7 @@
 }
 
 .drop{
-    background-color:none !important;
+    
     margin-top: 20px;
     margin-right: 4px;
 }
@@ -46,6 +46,10 @@
    
 }
 
+.btn{
+    color: white !important;
+   
+}
 
 
 

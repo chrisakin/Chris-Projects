@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+}
+
+header,
+footer {
+  padding: .8em .9em;
+  background: #2aa9ff;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+}
+
+ul li {
+  padding: .3em .5em;
+}
+
+ul li a {
+  color: #fff;
+}
+
+#desktopHeader {
+  display: none;
+}
+
+#mobileHeaderbars {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  cursor: pointer;
+}
+
+#logo {
+  height: 5em;
+  
+}
+
+/*TODO: When i make the mobile menu bars functional, this needs to be removed */
+#mobileHeader {
+  display: none;
+}
+
+@media (min-width:961px) {
+
+  #mobileHeader,
+  #mobileHeaderbars {
+    display: none;
+  }
+
+  #desktopHeader {
+    float: right;
+    display: inline;
+  }
+
+  #desktopHeader li {
+    display: inline;
+  }
+}

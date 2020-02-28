@@ -1,0 +1,22 @@
+<header>
+  <a href="#" [routerLink]="['/']"><img id="logo" src="../assets/logo.png" alt="Logo" />  </a>
+  <ul id="desktopHeader">
+    <li><a href="#">Sign In</a></li>
+    <li><a href="#" [routerLink]="['/signup']">Sign Up</a></li>
+  </ul>
+  <div class="clearfix"></div>
+  <span id="mobileHeaderbars">
+      <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32px" height="32px"><path d="M 4 7 L 4 9 L 28 9 L 28 7 Z M 4 15 L 4 17 L 28 17 L 28 15 Z M 4 23 L 4 25 L 28 25 L 28 23 Z"/></svg>
+  </span>
+  <ul id="mobileHeader">
+    <li><a href="#">Sign In</a></li>
+    <li><a href="#" [routerLink]="['/signup']">Sign Up</a></li>
+    <li><a href="">X</a></li>
+  </ul> 
+</header>
+<main>
+    <router-outlet></router-outlet>
+</main>
+<footer>
+  Copyright &copy; 2020 Christopher Akintade
+</footer>

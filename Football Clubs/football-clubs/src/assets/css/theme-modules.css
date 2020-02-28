@@ -4970,8 +4970,10 @@ screen and (max-height: 800px) {
     background-position: center center;
     
     /* Half height */
-    height: auto !important;
+    height: 100% !important;
     max-width: 100% !important;
+    margin-bottom: -50px;
+    
     
 }
 

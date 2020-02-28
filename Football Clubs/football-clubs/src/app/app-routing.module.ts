@@ -14,6 +14,7 @@ import {ListEuComponent} from './list-eu/list-eu.component';
 import {ListAuComponent} from './list-au/list-au.component';
 import {PicturesComponent} from './pictures/pictures.component';
 import {HomeComponent} from './home/home.component';
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 const routes: Routes = [
   {
@@ -99,9 +100,10 @@ const routes: Routes = [
     data: { title: 'Team Position' }
   },
   { path: '',
-    redirectTo: '/list',
+    redirectTo: '/home',
     pathMatch: 'full'
-  }
+  },
+  { path: '**', component: NoPageFoundComponent }
 ];
 
 @NgModule({
