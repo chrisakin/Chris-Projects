@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   bannerDynTxt: String = '';
-  dynTxtArray = ['Save time', 'Save money', 'Save gas', 'Gidi with less traffic'];
+  dynTxtArray = ['Save time', 'Save money', 'Save gas', 'Lagos with less traffic'];
   dynTxtArrayLen: Number = this.dynTxtArray.length;
   dynTxtArrayCurIdx: Number = 0;
 

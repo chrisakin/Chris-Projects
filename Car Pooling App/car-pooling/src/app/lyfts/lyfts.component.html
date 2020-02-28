@@ -1,10 +1,10 @@
 <div id="mainContainer">
   <div id="lyfts">
     <div [hidden]="pagesState.lyfts">
-      <h1>Where are you taking a lyft to?</h1>
+      <h1>Where are you taking a lift to?</h1>
         <table>
             <thead>
-              <th>Ikorodu Lyft</th>
+              <th>Ikorodu Lift</th>
               <td><a href="#" data-current="lyfts" data-next="lyft" (click)="onNextClick($event)">&gt;</a></td>
             </thead>
             <tbody>
@@ -23,7 +23,7 @@
           </table>
           <table>
             <thead>
-              <th>Lekki Lyft</th>
+              <th>Lekki Lift</th>
               <td><a href="#" data-current="lyfts" data-next="lyft" (click)="onNextClick($event)">&gt;</a></td>
             </thead>
             <tbody>
@@ -44,7 +44,7 @@
   </div>
   <div id="lyft">
     <div [hidden]="pagesState.lyft">
-        <h1>Available lyfts</h1>
+        <h1>Available lifts</h1>
         <img src="../../assets/map.jpeg" alt="map" />
         <table>
           <tbody>
@@ -104,7 +104,7 @@
               </tr>
               <tr>
                   <td>
-                    <button class="fill">Get Lyft</button>
+                    <button class="fill">Get a Lift</button>
                   </td>
                 </tr>
             </tbody>
