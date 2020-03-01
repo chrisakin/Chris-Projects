@@ -1,7 +1,9 @@
-
+.trans{
+    background-color: #ffffff00 !important;
+}
 
 .body{
-    background-color: rgb(134, 250, 225) !important;
+    background-color: rgb(102, 190, 99) ;
 }
 
 h1{

@@ -2,8 +2,10 @@
 <div id="main-content" class="bg-color-gray">
 
 <div class="page-container scene-main scene-main--fade_In">
+
+  
   <!-- Page Title -->
-  <div class="bg-img-71 py-50px py-md-100px mb-40px">
+  <div class="bg-img-71 py-100px py-md-200px mb-80px cont">
       <div class="container">
           <div class="row">
               <div class="col-lg-6 offset-lg-3 text-center all-text-content-white">
@@ -19,64 +21,39 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark absolute_header">
-  <div class="container">
-      <a class="navbar-brand" href="index.html">
-          <img class="etcodes-normal-logo" src="assets/images/logo.png" width="84" height="22" alt="Logo">
-          <img class="etcodes-mobile-logo" src="assets/images/logo.png" width="84" height="22" alt="Logo">
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top cbp-af-header ">
+    <div class="container"> 
+    <a href="#" class="navbar-brand">Fraud Check App</a>
+                                    
+    <button type="button" class="navbar-toggler navbar-toggler-right" 
+    data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
+    aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-      </a>
-      <button class="navbar-toggler hamburger-menu-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span>toggle menu</span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown mega_menu_holder">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
-              <ul class="dropdown-menu mega_menu">
-
-                <li class="nav-item">
-                  <a class="dropdown-item" href="index.html" >About Fraud Check</a>
-
-                </li>
-                <li class="nav-item">
-                  <a class="dropdown-toggle" href="#" data-toggle="dropdown">Fraud Complaints</a>
-
-                  <ul class="dropdown-menu mega_menu">
-
-                    <li class="nav-item">
-
-                      <a class="dropdown-toggle" href="#" data-toggle="dropdown">Year</a>
-
-                  <ul class="dropdown-menu">
-                    <a class="dropdown-item" href="#">2019</a>
-                  </ul>
-                  <ul class="dropdown-menu">
-                      <a class="dropdown-item" href="#">2018</a>
-                    </ul>
-                    <ul class="dropdown-menu">
-                        <a class="dropdown-item" href="#">2017</a>
-                      </ul>
-                      <ul class="dropdown-menu">
-                          <a class="dropdown-item" href="#">2016</a>
-                        </ul>
-                      </ul>
-
-                </li>
-                <li class="nav-item">
-                  <a class="dropdown-toggle" href="#" data-toggle="dropdown">Fraudsters Reported </a>
-                  <ul class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Aliases</a>
-                  </ul>
-                </li>
-
-                <li class="nav-item">
-                  <a class="dropdown-toggle" href="#" data-toggle="dropdown">Sign In / Log In</a>
-              </ul>
-            </li>
-          </ul>
-        </div>
-  </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+       
+         <ul class="navbar-nav ml-auto">
+             <li class="nav-items"><a class="nav-link" routerLinkActive="active" routerLink="/home" >Home</a></li>
+             <li class="nav-items"><a class="nav-link" routerLinkActive="active" routerLink="/about">About</a></li>
+             <li class="nav-items"><a class="nav-link" routerLinkActive="active" routerLink="/portfolio">Fraud Complaints</a></li>
+             <li class="nav-items"> <a  class="nav-link" routerLinkActive="active" routerLink="/services">Fraudsters Reported</a></li>
+             <li class="nav-items"><a  class="nav-link" routerLinkActive="active" routerLink="/contact">Contacts</a></li>
+      </ul>
+        
+   
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-items"><a  class="nav-link " routerLinkActive="active" routerLink="/contact">Sign Up</a></li>
+           
+            <li class="nav-items"><a class="nav-link" routerLinkActive="active" routerLink="/pictures" >Log In</a></li>
+            
+            
+        </ul>
+    </div>
+    </div>
 </nav>
+
+</div>
+</div>
 <!-- End Header -->

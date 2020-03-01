@@ -4971,7 +4971,8 @@ screen and (max-height: 800px) {
     
     /* Half height */
     height: auto !important;
-    max-width: 100% !important;
+    width: 100% !important;
+    
     
 }
 
