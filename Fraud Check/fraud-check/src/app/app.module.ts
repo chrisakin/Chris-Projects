@@ -3,27 +3,45 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { TitleHeaderComponent } from './title-header/title-header.component';
-import { BlogHomeComponent } from './blog-home/blog-home.component';
 import { FooterComponent } from './footer/footer.component';
-import { ViewPostComponent } from './view-post/view-post.component';
-import { ArticleService} from './service/article.service';
+
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { FraudComplaintsComponent } from './fraud-complaints/fraud-complaints.component';
+import { FraudstersReportedComponent } from './fraudsters-reported/fraudsters-reported.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
+import { RouterModule, Routes} from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TitleHeaderComponent,
-    BlogHomeComponent,
+    
     FooterComponent,
-    ViewPostComponent
+    HomeComponent,
+    AboutComponent,
+    FraudComplaintsComponent,
+    FraudstersReportedComponent,
+    ContactsComponent,
+    NoPageFoundComponent,
+    SignupComponent,
+    LoginComponent,
+   
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    RouterModule
   ],
-  providers: [ArticleService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -4467,6 +4467,8 @@ screen and (max-height: 800px) {
     background-repeat: no-repeat;
 }
 
+
+
 .bg-img-2 {
     background: url(../images/bg2.png);
     background-repeat: no-repeat;
@@ -4968,6 +4970,23 @@ screen and (max-height: 800px) {
    
 }
 
+
+.bg-img-01{
+    background-image: url(../images/bg41.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+.bg-img-02{
+    background-image: url(../images/bg42.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
 .bg-img-service-72 {
     background-image: url(../images/page-service-1/slider1.png);
     background-repeat: no-repeat;
@@ -4991,7 +5010,7 @@ screen and (max-height: 800px) {
 }
 
 .bg-img-74 {
-    background-image: url(../images/bg41.png);
+    background-image: url(../images/bg41.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
