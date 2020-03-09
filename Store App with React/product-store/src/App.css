@@ -1,0 +1,29 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+ margin-left: 80px;
+ margin-right: 1000px;
+ margin-top: 50px;
+ padding-bottom: 20px;
+ display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.body{
+  margin-left: 80px;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  background-color: aquamarine;
+  margin-right: 1000px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+

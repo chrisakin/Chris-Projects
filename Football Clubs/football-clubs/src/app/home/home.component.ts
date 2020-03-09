@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SoccerDataService} from '../soccer-data.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  sports;
 
-  ngOnInit(): void {
+  constructor(private soccerdataService: SoccerDataService) { }
+
+  ngOnInit()  {
+    this.sports = this.soccerdataService.getSports
+    
   }
 
 }

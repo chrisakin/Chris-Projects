@@ -1,0 +1,29 @@
+.homepage {
+   background-image: url("../../assets/img/home_back1.png");
+   min-height: 90vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 0px 0px 80px;
+}
+
+.homepage .h1text {
+    max-width: 500px;
+}
+
+.homepage .getstarted-btn .circle {
+    background-color: orange;
+}
+
+.homepage .getstarted-btn:hover .circle {
+    width: 175px;
+}
+
+.homepage .getstarted-btn .button-text {
+    width: 155px;
+    color: #35AF6F;
+}
+
+.homepage .getstarted-btn .button-text:hover {
+    color: #ffffff;
+}
