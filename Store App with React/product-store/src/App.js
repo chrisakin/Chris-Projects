@@ -8,8 +8,13 @@ class App extends React.Component {
         <header className="App-header"><h1>Product List App</h1></header>
         <section className="body">
           <Products ></Products>
+          <footer>
+       <p> © 2020 Christopher Akintade</p>
+      </footer>
         </section>
+        
       </div>
+      
     );
   }
 } 

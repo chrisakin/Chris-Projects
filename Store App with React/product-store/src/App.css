@@ -25,5 +25,26 @@
   padding-bottom: 50px;
 }
 
+@media screen and (max-width:992px) {
+  .body {
+      
+      margin-right:0px;
+      padding-left: 20px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .App-header {
+      
+      margin-right:0px;
+      padding-left: 20px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+}
+
 
 
