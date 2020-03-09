@@ -4,12 +4,12 @@ import ProductTable from './ProductTable.js';
 import ProductForm from './ProductForm';
 
 var PRODUCTS = {
-  '1': {id: 1, category: 'Musical Instruments', price: '$459.99', stocked: true, name: 'Clarinet'},
-  '2': {id: 2, category: 'Musical Instruments', price: '$5,000', stocked: true, name: 'Harpsicord'},
-  '3': {id: 3, category: 'Musical Instruments', price: '$11,000', stocked: false, name: 'Fortepiano'},
-  '4': {id: 4, category: 'Furniture', price: '$799', stocked: true, name: 'Chaise Lounge'},
-  '5': {id: 5, category: 'Furniture', price: '$1,300', stocked: false, name: 'Dining Table'},
-  '6': {id: 6, category: 'Furniture', price: '$100', stocked: true, name: 'Bean Bag'}
+  '1': {id: 1, category: 'Cassava', price: '$45', stocked: true, name: 'Garri'},
+  '2': {id: 2, category: 'Grain', price: '$5', stocked: true, name: 'Rice'},
+  '3': {id: 3, category: 'Grain', price: '$11', stocked: false, name: 'Beans'},
+  '4': {id: 4, category: 'Cassava', price: '$9', stocked: true, name: 'Bread'},
+  '5': {id: 5, category: 'Grain', price: '$100', stocked: false, name: 'Semo'},
+  '6': {id: 6, category: 'Grain', price: '$10', stocked: true, name: 'Wheat'}
 };
 
 class Products extends React.Component {
