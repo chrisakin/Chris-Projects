@@ -8,7 +8,7 @@ import {Observable} from 'rxjs';
 })
 export class ArticleService {
   articlesUrl = 'http://localhost:3000/articles';
-  articleUrl = 'http://localhost:3000/article/';
+  articleUrl = 'http://localhost:3000/articles/';
   article: any;
   httpOptions: any;
 

@@ -1,10 +1,8 @@
-
-
 <div class="page-container scene-main scene-main--fade_In">
 
-    <!-- view post -->
+    <!-- Blog post -->
 
-    <div class="container">
+    <div class="container"> 
 
         <div class="row">
 
@@ -12,7 +10,7 @@
 
                 <div class="post_img">
 
-                    <img src="assets/images/b3.jpg" alt="Card image cap">
+                    <img src="https://{{article.photo}}" alt="Card image cap">
 
                 </div>
 
@@ -34,49 +32,31 @@
 
                         <h3 class="post_title">
 
-                            <a href="blog-single-post.html">All the world's waiting for you</a>
+                            <div class="post_meta_top">
+
+                                <span class="post_meta_category">
+
+                                    <a href="#">{{article.tag}}</a>
+
+                                </span>
+
+                                <span class="post_meta_date">{{article.createdOn}}</span>
+
+                            </div>
+
+                            
+
+                            <a href="#">{{article.title}}</a>
 
                         </h3>
 
-                        <div class="post_meta_top">
-
-                            <span class="post_meta_category">
-
-                                <a href="blog-single-post.html">Crispy Food</a>
-
-                            </span>
-
-                            <span class="post_meta_date">Nov 17, 2020</span>
-
-                        </div>
+                        
 
                         <div class="post_content">
 
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-
-                                auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
-
-                                amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
-
-                                tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat
-
-                                auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-
-                                per inceptos himenaeos. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
-
-                                Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam
-
-                                pharetra, erat sed fermentum feugiat, velit mauris egestas quam.
+                            <p style="text-align: justify; text-justify: inter-word;">{{article.body}}
 
                             </p>
-
-                            <blockquote> “ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-                                Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.
-
-                                Sed ut imperdiet nisi. Proin condimentum fermentum nunc. ”</blockquote>
-
-                           
 
                         </div>
 
@@ -90,7 +70,7 @@
 
         </div>
 
-    </div>
+    </div> 
 
    
 

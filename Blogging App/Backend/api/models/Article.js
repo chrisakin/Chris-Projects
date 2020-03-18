@@ -1,12 +1,12 @@
 // Creation of our data Schema to arrange our data in the way we want it o be arranged in the front end app
 'use strict';
 const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-
-const BlogSchema =  mongoose.Schema({
+const BlogSchema = new Schema({
   title: {
     type: String,
-   
+    required: true
   },
   body: String,
   tag: {
@@ -19,8 +19,8 @@ const BlogSchema =  mongoose.Schema({
   },
  photo: {
   type: String,
- 
-},
+  required: true
+}
 });
 
 module.exports = mongoose.model("ArticleModel", BlogSchema);

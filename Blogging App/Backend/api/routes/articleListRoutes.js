@@ -1,16 +1,16 @@
 
 module.exports = function(app){
     // import controller into route function
-    var articleList = require('../controllers/articleListController');
+    const articleList = require("../controllers/articleListController");
     // create route for get and post requests on articles
     app
-    .route('/articles')
+    .route("/articles")
     .get(articleList.listAllArticles)
     .post(articleList.createNewArticle);
 
     //route for get, put, delete
     app
-    .route('/articles/:articleid')
+    .route("/articles/:articleid")
     .get(articleList.readArticle)
     .put(articleList.updateArticle)
     .delete(articleList.deleteArticle);
