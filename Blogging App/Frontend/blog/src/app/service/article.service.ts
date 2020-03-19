@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {Post} from '../post';
+import {Posts} from '../post';
 import {Observable} from 'rxjs';
 
 @Injectable({
@@ -19,8 +19,8 @@ export class ArticleService {
     });
    }
 
-   getArticles(): Observable<Post> {    
-     this.article = this.http.get<Post>(this.articlesUrl);   
+   getArticles(): Observable<Posts> {    
+     this.article = this.http.get<Posts>(this.articlesUrl);   
       return this.article; 
      }  
 
@@ -31,8 +31,8 @@ export class ArticleService {
 
 
    /** POST: add a new article to the database */ 
-    PostArticle(article: Post): Observable<Post> {     
-       return this.http.post<Post>(this.articlesUrl, 
+    PostArticle(article: Posts): Observable<Posts> {     
+       return this.http.post<Posts>(this.articlesUrl, 
        { 'title': article.title, 'body': article.body, 
        'tag': article. tag, 'photo': article.photo 
       },
@@ -50,8 +50,8 @@ export class ArticleService {
  }
 
 
-   updateArticle(id: number, article: Post): Observable<Post> {    
-     return this.http.put<Post>(this.articleUrl + id,
+   updateArticle(id: number, article: Posts): Observable<Posts> {    
+     return this.http.put<Posts>(this.articleUrl + id,
        { 
          'title': article.title, 'body': article.body, 'tag': article.tag, 'photo': 
    article.photo

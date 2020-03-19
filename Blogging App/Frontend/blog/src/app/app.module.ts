@@ -10,6 +10,13 @@ import { FooterComponent } from './footer/footer.component';
 import { ViewPostComponent } from './view-post/view-post.component';
 import { ArticleService} from './service/article.service';
 import { HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { FormsModule }   from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
+import { RegisterComponent } from './register/register.component';
+import { CreateComponent } from './create/create.component';
+import { RouterModule, Routes} from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -19,12 +26,19 @@ import { HttpClientModule} from '@angular/common/http';
     TitleHeaderComponent,
     BlogHomeComponent,
     FooterComponent,
-    ViewPostComponent
+    ViewPostComponent,
+    LoginComponent,
+    RegisterComponent,
+    CreateComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    RouterModule
   ],
   providers: [ArticleService],
   bootstrap: [AppComponent]

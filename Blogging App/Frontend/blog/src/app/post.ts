@@ -1,8 +1,12 @@
+export class Posts {
 
-
-export interface Post {  
-      photo: string;   
-      title: string;   
-      body: string;    
-      tag: string;  
-}
+      constructor(
+      public title: string,
+      public body: string,
+      public tag: string,
+      public photo: string,
+  
+  ) {  }
+  
+  }
+  
