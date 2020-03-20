@@ -30,7 +30,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     LoginComponent,
     RegisterComponent,
     CreateComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    
   ],
   imports: [
     BrowserModule,
